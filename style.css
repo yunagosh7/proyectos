@@ -1,0 +1,157 @@
+*{
+    font-family: 'Lucida Sans Typewriter';
+}
+
+
+
+@media screen and (max-width: 576px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #1E1E1E;
+        align-items: center;
+        position: relative;
+        top: 10vh;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        width:40px;
+    }
+
+    .form{
+        width: 85vw;
+        height: 280px;
+        background-color: #505050;
+        margin: auto 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form__form{
+        display: flex;
+        flex-direction: column;
+        width: 66vw;
+        margin: 0 auto 0 auto;
+    }
+
+    .form__input{
+        width: 60vw;
+        height: 40px;
+        background-color: #FFBB39;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+
+    .header__img{
+        width: 75px;
+    }
+
+    .form__lostpd{
+        margin:10px auto 0 auto;
+    }
+
+    .sub{
+        width: 85vw;
+        margin: 30px 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+    .sub__separador{    
+        height: 6px;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:0 auto 20px ;
+    }
+
+
+    .form__linea{
+        width: 25vw;
+        height: 2px;
+        background-color: black;
+    }
+
+    .form__linea2{
+        margin-left: 3px;
+    }
+
+    .form__linea1{
+        margin-right: 3px;
+    }
+
+    .form__cwgoogle{
+        background-color: #FFF;
+        height: 60px;
+        width: 75vw;
+        margin: auto;
+    }
+    
+    a{
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .form__cwgoogle--txt{
+        margin: auto 2vw;
+        color: #3A63CC;
+    }
+    
+    .form__cwgoogle--img{
+        margin: auto 1vw auto 4vw;
+        
+    }
+
+    .form__cwapple{
+        background-color: #000;
+        height: 60px;
+        width: 75vw;
+        margin: auto;
+    }
+    
+    a{
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .form__cwgoogle--img{
+        margin: auto 1vw auto 4vw;
+    }
+
+    .form__cwapple--txt{
+        margin: auto 2vw;
+        color: #fff;
+    }
+
+    .form__cwapple--img{
+        width: 50px;
+        margin: auto 0.6vw auto 2.5vw;
+    }
+
+    .form__register{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+        color: #8F8F8F;
+    }
+
+    .form__register--createaccount{
+        color: #3069ED;
+    }
+}
+
