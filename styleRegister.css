@@ -1,0 +1,294 @@
+*{
+    font-family: 'Lucida Sans Typewriter';
+}
+.form__lostpd{
+    color: #9b9b9b;
+}
+
+input{
+    background-color: #FFBB39;
+}
+
+
+@media screen and (max-width: 700px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #1E1E1E;
+        align-items: center;
+        position: relative;
+        top: 10vh;
+    }
+    .header{
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        width:40px;
+    }
+
+    .form{
+        width: 85vw;
+        height: 60vh;
+        background-color: #505050;
+        margin: auto 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form__form{
+        display: flex;
+        flex-direction: column;
+        width: 66vw;
+        margin: 0 auto 0 auto;
+    }
+
+    .form__input{
+        width: 60vw;
+        height: 40px;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+
+    .header__img{
+        width: 75px;
+    }
+
+    .form__lostpd{
+        margin:10px auto 0 auto;
+    }
+
+    .sub{
+        width: 85vw;
+        margin: 30px 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+    .sub__separador{    
+        height: 6px;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:0 auto 20px ;
+    }
+
+
+    .form__linea{
+        width: 25vw;
+        height: 2px;
+        background-color: black;
+    }
+
+    .form__linea2{
+        margin-left: 3px;
+    }
+
+    .form__linea1{
+        margin-right: 3px;
+    }
+
+    .form__cwgoogle{
+        background-color: #FFF;
+        height: 60px;
+        width: 75vw;
+        margin: auto;
+    }
+    
+    a{
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .form__cwgoogle--txt{
+        margin: auto 2vw;
+        color: #3A63CC;
+    }
+    
+    .form__cwgoogle--img{
+        margin: auto 1vw auto 4vw;
+        
+    }
+
+    .form__cwapple{
+        background-color: #000;
+        height: 60px;
+        width: 75vw;
+        margin: auto;
+    }
+    
+    a{
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .form__cwgoogle--img{
+        margin: auto 1vw auto 4vw;
+    }
+
+    .form__cwapple--txt{
+        margin: auto 2vw;
+        color: #fff;
+    }
+
+    .form__cwapple--img{
+        width: 50px;
+        margin: auto 0.6vw auto 2.5vw;
+    }
+
+    .form__register{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+        color: #8F8F8F;
+    }
+
+    .form__register--createaccount{
+        color: #3069ED;
+    }
+}
+
+@media screen and (min-width: 701px){
+    a{
+        text-decoration: none;
+    }
+
+    img{
+        width: 70px;
+    }
+
+    body{
+        background-color: #1e1e1e;
+        margin: 0;
+    }
+
+    .head{
+        height: 13vh;
+        background-color: #b6b6b6;
+        margin-bottom: 50px;
+    }
+
+    .header{
+        display: flex;
+    }
+
+    .header__img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .form{
+        width: 55vw;
+        height: 45vh;
+        background-color: #565656;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+
+    .form__form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input{
+        width: 35vw;
+        height: 40px;
+        margin: 12px auto;
+        border-radius: 5px;
+    }
+
+    .sub{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub__separador{
+        width: 55vw;
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .form__linea{
+        width: 20vw;
+        height: 2px;
+        background-color: #8F8F8F;
+        border-radius: 20px;
+    }
+    .form__or{
+        color:#8F8F8F;
+    }
+
+    .form__cwgoogle{
+        width: 50vw;
+        height: 7vh;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        margin:20px auto;
+    }
+
+    .form__cwgoogle--img{
+        width: 50px;
+        height: 50px;
+        margin-left: 18px;
+    }
+
+    .form__cwgoogle--txt{
+        color: #3A63CC;
+        margin-left: 10px;
+    }
+
+    .form__cwapple{
+        width: 50vw;
+        height: 7vh;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        margin:20px auto;
+    }
+
+    .form__cwapple--img{
+        width: 58px;
+        height: 58px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .form__cwapple--txt{
+        color:#fff;
+    }
+
+    .form__register{
+        color: #969696;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form__register--createaccount{
+        color: #3069ED;
+    }
+
+}

@@ -9,10 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleLogin.css">
 </head>
 <body>
-    <header>
+    <header class="head">
         <div class="header">
             <img src="images/logo.png" alt="" class="header__img">
             <h1 class="header__title">Empresa</h1>
@@ -20,10 +20,10 @@
     </header>
     <main>
         <div class="form">
-            <form action="saveuser.php" method="post" class="form__form">
+            <form action="login.php" method="post" class="form__form">
                 <input name="user" type="text" class="form__username form__input" placeholder="User name, email" required>
                 <input name="password" type="password" class="form__pd form__input" placeholder="Password" required>
-                <input name="saveuser" type="submit" class="form__submit form__input" value="Log in">
+                <input name="login" type="submit" class="form__submit form__input" value="Log in">
             </form>
             <a href="asflñaskñ" class="form__lostpd">Forgot password?</a>
         </div>
@@ -43,7 +43,7 @@
                     <strong class="form__cwapple--txt">Continue with Apple</strong>
                 </a>
             
-            <span class="form__register">Not resgistered?<a href="qwrqwrqwrqw" class="form__register--createaccount">Create an account</a></span>
+            <span class="form__register">Not resgistered?<a href="register.php" class="form__register--createaccount">Create an account</a></span>
         </div>
     </main>
 </body>

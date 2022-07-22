@@ -2,18 +2,20 @@
 include('db.php');
 
 if(isset($_POST['saveuser'])){
-    $user = $_POST['user'];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
     $pd = $_POST['password'];
-    $query = "INSERT INTO users(username, pd) VALUES ('$user', '$pd')";
+
+    $query = "INSERT INTO users(name, email, phone, pd) VALUES ('$name', '$email', '$phone', '$pd')";
     $result = mysqli_query($conn, $query);
 
     if(!$result){
         die("no funco");
     } else{
-        echo "si funco";
     }
 } else{
     echo 'no';
-} header('inicio.php');
+} header('Location:index.php')
 
 ?>
